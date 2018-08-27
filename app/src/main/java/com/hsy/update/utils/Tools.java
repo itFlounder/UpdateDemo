@@ -13,14 +13,14 @@ public class Tools {
      *
      * @return
      */
-    public static boolean hasSdcard() {
-        String state = Environment.getExternalStorageState();
-        if (state.equals(Environment.MEDIA_MOUNTED)) {
-            return true;
-        } else {
-            return false;
-        }
-    }
+//    public static boolean hasSdcard() {
+//        String state = Environment.getExternalStorageState();
+//        if (state.equals(Environment.MEDIA_MOUNTED)) {
+//            return true;
+//        } else {
+//            return false;
+//        }
+//    }
 
     /**
      * 2 * 获取版本号 3 * @return 当前应用的版本号 4
